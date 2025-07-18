@@ -18,7 +18,7 @@ This repository is designed for learning, practicing, and mastering Java concept
 
 The repository contains the following categorized files:
 
-### 🔰 Basics of Java
+### 1. Basics of Java
 - `firstClass.java`: Your first Java program.
 - `functions.java`: Functions and methods in Java.
 - `conditionalStatements.java`: `if`, `else`, `switch`, etc.
@@ -29,11 +29,11 @@ The repository contains the following categorized files:
 - `stringBuilder.java`: Usage of `StringBuilder`.
 - `strings.java`: Working with `String` class.
 
-### 🧱 Object-Oriented Programming (OOP)
+### 2. Object-Oriented Programming (OOP)
 - `OOPS.java`: Core principles of OOP in Java.
 - `Shape.class`: Example of class and inheritance.
 
-### 🧮 Data Structures
+### 3. Data Structures
 - `LL.java`: Linked list implementation.
 - `LLQuestions.java`: Linked list problems.
 - `ReverseLL.java`: Reversing a linked list.
@@ -45,19 +45,19 @@ The repository contains the following categorized files:
 - `graph.java`: Graph implementation and traversal.
 - `Hashing.java`, `Hashing1.java`: Hashing concepts.
 
-### 🔁 Recursion and Backtracking
+### 4. Recursion and Backtracking
 - `recursion1.java`, `recursion2.java`, `recursion3.java`: Recursion problems.
 - `backtracking.java`: Backtracking examples.
 
-### 📊 Algorithms
+### 5. Algorithms
 - `sorting.java`: Basic sorting algorithms.
 - `mergeSort.java`: Merge Sort algorithm.
 - `quickSort.java`: Quick Sort algorithm.
 
-### 🧠 Bit Manipulation
+### 6. Bit Manipulation
 - `bitManipulation.java`: Bitwise operations and tricks.
 
-### 🛠 Practice and Utility Files
+### 7. Practice and Utility Files
 - `practice.java`, `practiceNew.java`: Practice programs.
 - `AL.java`: ArrayList-related logic.
 - `CF.java`: Competitive programming or Codeforces-style problems.
