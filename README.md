@@ -1,4 +1,4 @@
-# Java Practice and Data Structures Repository
+# Java Data Structures Repository
 
 Welcome to the **Java** repository! This project is a collection of Java programs and code snippets that cover fundamental and advanced topics in Java programming, including:
 
