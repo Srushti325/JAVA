@@ -1011,4 +1011,60 @@
 // }
 
 
+// Hashing
+// import java.util.HashSet;
+// import java.util.Iterator;
+// public class practiceNew {
+//     public static void main(String args[]) {
+//         HashSet<Integer> set = new HashSet<>();
+//         set.add(10);
+//         set.add(20);
+//         set.add(30);
+//         set.add(40);
+//         if(set.contains(30)) {
+//             System.out.println("30 is present in the set");
+//         } else {
+//             System.out.println("30 is not present in the set");
+//         }
+//         Iterator it = set.iterator();
+//         while(it.hasNext()) {
+//             System.out.println(it.next());
+//         }
 
+//     }
+// }
+
+
+// HashMap:
+import java.util.HashSet;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+public class practiceNew {
+    public static void main(String args[]) {
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("India", 130);
+        map.put("USA", 30);
+        map.put("UK", 60);
+
+        System.out.println(map);
+
+        map.put("UK", 30);
+        System.out.println(map);
+
+        if(map.containsKey("India")) {
+            System.out.println("India is present in the map");
+            System.out.println(map.get("India"));
+        }
+
+        for(Map.Entry<String, Integer> e : map.entrySet()) {
+            System.out.println(e.getKey() + " " + e.getValue());
+        }
+
+        Set<String> keys = map.keySet();
+        for(String key : keys) {
+            System.out.println(key + "->" + map.get(key));
+        }
+    }
+}
