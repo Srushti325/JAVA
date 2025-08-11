@@ -28,12 +28,16 @@ public class GraphsCode {
         graph[3].add(new Edge(3, 2));
     }
     public static void main(String args[]) {
-        int V = 4;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of vertices: ");
+        int V = sc.nextInt();
         ArrayList<Edge> graph [] = new ArrayList[V];
         creatGraph(graph);
-        // Print 2's neighbors 
-        for(int i=0; i<graph[2].size(); i++) {
-            Edge e = graph[2].get(i);
+        // Print neighbours
+        System.out.print("Enter the vertix who's neighbour's need to be printed: ");
+        int x = sc.nextInt();
+        for(int i=0; i<graph[x].size(); i++) {
+            Edge e = graph[x].get(i);
             System.out.println(e.dest);
         }
     }
